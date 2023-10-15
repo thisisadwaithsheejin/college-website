@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaya College Of Arts And Sciences</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/cd680be6be.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <section class="sub-header">
+    <nav>
+      <a href="index.html"><img src="images/logo.png"></a>
+      <div class="nav-links"id="navLinks">
+        <i class="fa-solid fa-xmark"onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="course.html">COURSE</a></li>
+          <li><a href="blog.html">HOSTEL</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+      <i class="fa-solid fa-bars"onclick="showMenu()"></i>
+    </nav>
+<h1>CONTACT US</h1>
+
+  </section>
+
+  <!---------------------contact us----------------->
+
+<section class="location">
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3885.6270254750334!2d80.04255681490721!3d13.122798290756862!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5288fc50d64a63%3A0xec827adce7074b36!2sJaya%20College%20Of%20Arts%20And%20Science!5e0!3m2!1sen!2sin!4v1681231557231!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+</section>
+
+<section class="contact-us">
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa-solid fa-house"></i>
+                <span>
+                    <h5>Chennai - Tiruvallur High Rd, Thiruninravur, Tamil Nadu 602024</h5>
+                    <p>Chennai,Tamilnadu,India</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa-solid fa-phone"></i>
+                <span>
+                    <h5>04426340953</h5>
+                    <p>Monday To Saturday,9:30am to 4:00pm</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa-solid fa-envelope"></i>
+                <span>
+                    <h5>iadwaithsheejin@gmail.com</h5>
+                    <p>Email us your query</p>
+                </span>
+            </div>
+        </div>
+        <div class="contact-col">
+
+            <form action="form-handler.php"method="post">
+                <input type="text"name="name" placeholder="Enter Your Name" required>
+                <input type="email"name="email" placeholder="Enter Your Email" required>
+                <input type="text"name="subject" placeholder="Enter Your Subject" required>
+                <textarea rows="8"name="message"placeholder="Message"required></textarea>
+                <button type="submit"class="hero-btn red-btn">Send Message</button>
+            </form>
+
+        </div>
+    </div>
+</section>
+
+
+<!---------------------footer----------------->
+<section class="footer">
+    <h4>ABOUT US</h4>
+    <p>Enhancing knowledge, improving skills and increasing participation in the academic programmers are the noble objectives of this college</p>
+    <div class="icons">
+      <a href="https://www.facebook.com/groups/355441991207343/"><i class="fa-brands fa-facebook"></i></a>
+      <a href="https://twitter.com/jayagroupc?lang=en"><i class="fa-brands fa-twitter-square"></i></a>
+      <a href="https://www.instagram.com/jayacollege/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+    </div>
+  </section>
+
+ <!----------js for toggle menu-------->   
+<script>
+
+  var navLinks=document.getElementById("navLinks");
+  function showMenu(){
+    navLinks.style.right="0";
+  }
+  function hideMenu(){
+    navLinks.style.right="-200px";
+  }
+</script>
+</body>
+</html>

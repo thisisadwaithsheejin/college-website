@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaya College Of Arts And Sciences</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/cd680be6be.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <section class="sub-header">
+    <nav>
+      <a href="index.html"><img src="images/logo.png"></a>
+      <div class="nav-links"id="navLinks">
+        <i class="fa-solid fa-xmark"onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="course.html">COURSE</a></li>
+          <li><a href="blog.html">HOSTEL</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+      <i class="fa-solid fa-bars"onclick="showMenu()"></i>
+    </nav>
+<h1>HOSTELS</h1>
+  </section>
+
+<!------------------------------------------------------Hostel------------------------------------------------------------------->  
+    
+<section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="images/hostel.jpeg">
+            <h2>HOSTEL FOR STUDENTS</h2>
+            <p>A home is not a place, but a feeling. our college hostel provides a place for the emotional, physical and intellectual needs of the hostelers. A team of wardens and the tutor take great care in nurturing the students all-round well being and specially their safety and happiness.</p>
+            <br>
+            <p>We have separate hostel for Boys and girls.Every room has sufficient space for sharing with the adjacent students.There is a common room for the students to gather and to interact.Facilities are provided for indoor games to improve their social life.Importance is given for group activities to motivate positive attitude of sharing and exhibiting their talents.Uninterrupted power supply, medical facilities, non vegetarian food, RO drinking water, television, intercom facilities for all the room s, separate reading room, Telephone facilities, Dry cleaning facilities are provided in the Hostel. Hostel Day is celebrated every year in the month of February apart from all the yearly festivals of different culture.</p>
+            <br>
+            <p>Hostel review committee meetings are conducted once in 15 days by the hostel administrators to address students queries and requirements, and to keep them updated on upgradation of services and events. Students are also given the privilege to give suggestions to improve the hostel facilities.</p>
+            <br>
+            <p>A spacious Visitors' Lounge has recently been added for the benefit of visiting parents/guardians, supplementing the residential guest house facilities available. The spotlessly maintained and spacious vegetarian and non-vegetarian dining halls in the hostels serve wholesome, nutritious food with the help of a unique steam cooking facility. Foreign students can also choose from a limited list of special food items. A Chinese mess is functioning separately.For those who want to try out different cuisines, a variety of hygienic food facilities are available on campus. A popular eating spot is the 600 square meters Food Court, that serves delicious non-vegetarian and vegetarian food at reasonable prices. Fast food outlets are also attached to both the Men's and Women's Hostels.</p>
+            <div class="comment-box">
+                <h3>LEAVE A COMMENT</h3>
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter Email">
+                    <textarea rows="5"placeholder="Your Comment">
+                    </textarea>
+                    <button type="submit"class="hero-btn red-btn">POST COMMENT</button>
+                </form>
+            </div>
+
+        </div>
+        <div class="blog-right">
+            <h3>HOSTEL CONTACTS</h3>
+            <div>
+                <span>MENS HOSTEL LANDLINE</span>
+                <span>6381387996</span>
+            </div>
+            <div>
+                <span>R.mohanasundaram(Mens Warden)</span>
+                <span>6859621474</span>
+            </div>
+            <div>
+                <span>Mr.Sathiavelu(Mens Warden food)</span>
+                <span>6665656656</span>
+            </div>
+            <div>
+                <span>WOMENS HOSTEL LANDLINE</span>
+                <span>1321465432</span>
+            </div>
+            <div>
+                <span>Mrs.Valli(Womens Warden)</span>
+                <span>3216543211</span>
+            </div>
+            <div>
+                <span>Mrs.Ramanjeet(Womens Warden food)</span>
+                <span>6546213216</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!---------------------footer----------------->
+<section class="footer">
+    <h4>ABOUT US</h4>
+    <p>Enhancing knowledge, improving skills and increasing participation in the academic programmers are the noble objectives of this college</p>
+    <div class="icons">
+      <a href="https://www.facebook.com/groups/355441991207343/"><i class="fa-brands fa-facebook"></i></a>
+      <a href="https://twitter.com/jayagroupc?lang=en"><i class="fa-brands fa-twitter-square"></i></a>
+      <a href="https://www.instagram.com/jayacollege/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+    </div>
+  </section>
+
+ <!----------js for toggle menu-------->   
+<script>
+
+  var navLinks=document.getElementById("navLinks");
+  function showMenu(){
+    navLinks.style.right="0";
+  }
+  function hideMenu(){
+    navLinks.style.right="-200px";
+  }
+</script>
+</body>
+</html>

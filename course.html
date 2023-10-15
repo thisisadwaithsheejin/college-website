@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaya College Of Arts And Sciences</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/cd680be6be.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <section class="sub-header">
+    <nav>
+      <a href="index.html"><img src="images/logo.png"></a>
+      <div class="nav-links"id="navLinks">
+        <i class="fa-solid fa-xmark"onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="course.html">COURSE</a></li>
+          <li><a href="blog.html">HOSTEL</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+      <i class="fa-solid fa-bars"onclick="showMenu()"></i>
+    </nav>
+
+<!------------------------------------------------course------------------------------------------------------------->
+
+<h1>OUR COURSES</h1>
+  </section>
+  <section class="course">
+    <h1>COURSES WE OFFER</h1>
+    <p>These are the following Courses we provide for our students</p>
+      <div class="row">
+        <div class="course-col">
+          <h3>DEPARTMENT OF ARTS UG</h3>
+          <p>B.Com.(Corporate Secretaryship)<br>B.Com. (General)<br>B.Com. (Bank Management)<br>B.Com.(Accounting & Finance)<br>B.Com.(Computer Application)<br>B.B.A<br>B.A.(English)</p>
+        </div>
+        <div class="course-col">
+          <h3>DEPARTMENT OF SCIENCE UG</h3>
+          <p>B.Sc. (Mathematics)<br>B.Sc. (Computer Science)<br>B.C.A <br>B.Sc. (Physics)<br>B.Sc. (Chemistry)<br>B.Sc. (Biochemistry)<br>B.Sc. (Microbiology)<br>B.Sc. (Biotechnology)<br>B.Sc. (Electronics and Communication Science)</p>
+        </div>
+        <div class="course-col">
+          <h3>DEPARTMENT OF PROFESSIONAL PG</h3>
+          <p>MCA<br>MBA<br></p>
+          <div><h3>DEPARTMENT OF ARTS PG</h3>
+          <p>M.Com<br>M.A. (English)</p>
+        </div>
+        </div>
+      </div>
+  </section>
+
+<!---------------------facilities----------------------->
+
+<section class="facilities">
+    <h1>OUR FACILITIES</h1>
+    <p>From sports facilities to teaching spaces and laboratories, we're investing in our facilities to improve the experience we deliver to our students, academic and researchers, our partners in business, and the local community</p>
+    
+    <div class="row">
+      <div class="facilities-col">
+        <img src="images/library.png">
+        <h3>LIBRARY</h3>
+        <p>The Jaya College of Arts and Science library is well established as a knowledge source for the students of the different disciplines and faculty to obtain information. It is spacious and the resources are made easily accessible by the serene ambiance and effective computerization. Our library is housed in a hall of 8100sqft with a variegated collection of over 10121 titles 21678 Volumes apart from subscriptions to leading national and international periodicals and journals. It has a seating capacity of 150 students at a time. Leading newspapers, Magazines, and Journals are subscribed regularly to augment the library as a rich source of knowledge. The library is equipped with 10 computers for access to web resources. It also includes general knowledge books, books related to competitive examinations, and spiritual and religious books. The Digital library available for the students with individual login ID and password is useful to access the internet materials</p>
+      </div>
+      
+      <div class="facilities-col">
+        <img src="images/basketball.png">
+        <h3>SPORTS</h3>
+        <p>Our college has setup facilities/ground for cricket, football, Basketball, volleyball; Table-Tennis, Batminton, chess, carom etc and league matches are encouraged.Our college campus has a football ground with lush green grass for the most widely played and followed sports in the world. The infrastructure related to the cricket includes a cricket ground with natural turf pitches synthetic practice.The basketball, football, throwball and cricket are played and the finals are conducted one week before the sports event.</p>
+      </div>
+      
+      <div class="facilities-col">
+        <img src="images/NCC.jpg">
+        <h3>NCC/NSS/YRC/RRC</h3>
+        <p>The Jaya NCC has presently has one NCC unit namely 13 TN BN NCC (SD & SW) at Madras B Group, Tamil Nadu, Pondicherry and Andaman Nicobar Directorate. The Present Jaya NCC if functioning with the strength of 01 ANO and 52 Cadets under13 TN BN NCC. The NCC units of Jaya provide ample opportunities to develop one’s physical and intellectual potential through different training camps and activities like Republic Day Camp (RDC), Thalsanik Camp (TSC) Advanced Leadership Camp (ALC), Basic Leadership Camp (BLC), Compined Annual Training Camp(CATC), Army Attachment Training Camp (AATC), Youth Exchange Programme (YEP) , Rock Climbing Training Camp(RCTC), Special National Integration Camp ( SNIC), community development program cum social service activities like sapling plantations, blood donation camps, social awareness rallies, cleanliness drives of statues, COVID-199 related camps, adventure training like trekking camp sports camp etc. along with institutional trainings including Foot Drill, Arms Drill, Weapons training, Obstacles Training, Self Defense, Map Reading Etc.</p>
+      </div>
+    </div>
+    
+    </section>  
+    
+<!---------------------footer----------------->
+<section class="footer">
+    <h4>ABOUT US</h4>
+    <p>Enhancing knowledge, improving skills and increasing participation in the academic programmers are the noble objectives of this college</p>
+    <div class="icons">
+      <a href="https://www.facebook.com/groups/355441991207343/"><i class="fa-brands fa-facebook"></i></a>
+      <a href="https://twitter.com/jayagroupc?lang=en"><i class="fa-brands fa-twitter-square"></i></a>
+      <a href="https://www.instagram.com/jayacollege/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+    </div>
+  </section>
+
+ <!----------js for toggle menu-------->   
+<script>
+
+  var navLinks=document.getElementById("navLinks");
+  function showMenu(){
+    navLinks.style.right="0";
+  }
+  function hideMenu(){
+    navLinks.style.right="-200px";
+  }
+</script>
+</body>
+</html>
